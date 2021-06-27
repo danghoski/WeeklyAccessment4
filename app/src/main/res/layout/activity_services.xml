@@ -37,5 +37,142 @@
         app:layout_constraintTop_toBottomOf="@+id/serviceText"
         app:layout_constraintVertical_bias="0.854" />
 
+    <ImageView
+        android:id="@+id/ic_car_rental"
+        android:layout_width="121dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_car_rental"
+        app:layout_constraintBottom_toTopOf="@+id/ic_vehicle"
+        app:layout_constraintEnd_toStartOf="@+id/ic_eco_car"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serviceText"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="142dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:orientation="vertical"
+        android:text="Car Service"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/ic_vehicle"
+        app:layout_constraintEnd_toStartOf="@+id/ic_wheel"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_car_rental"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/ic_eco_car"
+        android:layout_width="132dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="19dp"
+        android:src="@drawable/ic_eco_car"
+        app:layout_constraintBottom_toTopOf="@+id/ic_wheel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ic_car_rental"
+        app:layout_constraintTop_toBottomOf="@+id/serviceText"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="151dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Rechage"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toEndOf="@+id/ic_car_rental"
+        app:layout_constraintTop_toBottomOf="@+id/ic_eco_car"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/ic_vehicle"
+        android:layout_width="163dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="94dp"
+        android:src="@drawable/ic_vehicle"
+        app:layout_constraintBottom_toTopOf="@+id/servicesBtn"
+        app:layout_constraintEnd_toStartOf="@+id/ic_wheel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_car_rental" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="163dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="70dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Car Rental"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/servicesBtn"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_vehicle"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/ic_wheel"
+        android:layout_width="136dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="125dp"
+        android:src="@drawable/ic_wheel"
+        app:layout_constraintBottom_toTopOf="@+id/servicesBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ic_vehicle"
+        app:layout_constraintTop_toBottomOf="@+id/ic_eco_car" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="165dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="70dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Accessories"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/servicesBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/ic_wheel" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
